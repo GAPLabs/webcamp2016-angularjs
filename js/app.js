@@ -17,6 +17,26 @@ BookStore.controller('BookController', function($scope){
 			author : 'Darlene Schacht', 
 			price  : '7.14' 
 		},
+		{ 
+			title  : 'Modular Web Design', 
+			author : 'Nathan Curtis', 
+			price  : '119.25' 
+		},
+		{ 
+			title  : 'Making Ideas Happen', 
+			author : 'Scott Belsky', 
+			price  : '30.00' 
+		},
+		{ 
+			title  : 'Object Oriented JS', 
+			author : 'Stoyan Stefanov', 
+			price  : '50.55' 
+		},
+		{ 
+			title  : 'Adaptive Web Design', 
+			author : 'Aaron Gustafson', 
+			price  : '150.75' 
+		},
 	];
 
 	$scope.save = function() {
